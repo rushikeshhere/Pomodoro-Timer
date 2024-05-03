@@ -1,0 +1,57 @@
+body {
+
+    background-color: beige;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+
+}
+
+.container .title {
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: hsl(180, 1%, 30%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.timer {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(102, 99, 95);
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(142, 139, 134);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#start {
+    background-color: hsl(130, 80%, 25%);
+}
+
+#stop {
+    background-color: rgb(202, 43, 43);
+}
+
+#reset {
+    background-color: hsl(163, 4%, 39%);
+}
